@@ -260,9 +260,8 @@
 
   <!-- Countdown Timer -->
   <script>
-    // Set launch date (3 Months from now)
-    const launchDate = new Date();
-    launchDate.setDate(launchDate.getDate() + 90);
+    // Set the launch date (January 22, 2026)
+    const launchDate = new Date(2026, 0, 22, 0, 0, 0).getTime();
 
     // Update countdown every second
     const countdown = setInterval(function () {
